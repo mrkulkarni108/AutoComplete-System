@@ -21,4 +21,5 @@ Member 4 – Dataset handling and testing
 Development Timeline
 Week 1 – Planning, design, repository setup  
 Week 2 – Code implementation and commits  
-Week 3 – Testing, optimization, and project demo
+Week 3 – Again improved Code implementation and commits
+Week 4 – Testing, optimization, and project demo
