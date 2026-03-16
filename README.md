@@ -1,5 +1,12 @@
 # AutoComplete-System
 
+team members 
+Ikara Mulani - 1012411204
+Nirmayee Puranik - 1012411214
+Jagruti Shirsekar - 1012411220
+Tanishka Sakore - 1012411238
+
+Problem Discription 
 This project implements an Auto Complete System that suggests words based on the prefix entered by the user. This system improves typing efficiency by predicting possible word completions using an efficient data structure.
 
 Data Structure Design
@@ -13,10 +20,10 @@ Algorithm Plan
 5. Display suggestions.
 
 Module Division
-Member 1 – Trie implementation (insert, search).
-Member 2 – Autocomplete suggestion logic.
-Member 3 – User input and interface.
-Member 4 – Dataset handling and testing.
+Tanishka Sakore – Trie implementation (insert, search).
+Ikara Mulani – Autocomplete suggestion logic.
+Nirmayee Puranik – User input and interface.
+Jagruti Shirsekar – Dataset handling and testing.
 
 Development Timeline
 Week 1 – Planning, design, repository setup  
