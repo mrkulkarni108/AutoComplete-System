@@ -1,9 +1,9 @@
 # AutoComplete-System
 
-This project implements an Auto Complete System that suggests words based on the prefix entered by the user. The system improves typing efficiency by predicting possible word completions using an efficient data structure.
+This project implements an Auto Complete System that suggests words based on the prefix entered by the user. This system improves typing efficiency by predicting possible word completions using an efficient data structure.
 
 Data Structure Design
-The project uses the Trie (Prefix Tree) data structure to store words and perform fast prefix searching. Each node represents a character and stores links to child nodes.
+The project uses the Trie (Prefix Tree) data structure to store words and perform fast prefix searching. Each node represents a character and stores the links to child nodes.
 
 Algorithm Plan
 1. Insert words into the Trie.
