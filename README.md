@@ -1,10 +1,10 @@
 # AutoComplete-System
 
 #Team members 
-Ikara Mulani - 1012411204
-Nirmayee Puranik - 1012411214
-Jagruti Shirsekar - 1012411220
-Tanishka Sakore - 1012411238
+1. Ikara Mulani - 1012411204
+2. Nirmayee Puranik - 1012411214
+3. Jagruti Shirsekar - 1012411220
+4. Tanishka Sakore - 1012411238
 
 #Problem Discription 
 This project implements an Auto Complete System that suggests words based on the prefix entered by the user. This system improves typing efficiency by predicting possible word completions using an efficient data structure.
@@ -20,10 +20,10 @@ The project uses the Trie (Prefix Tree) data structure to store words and perfor
 5. Display suggestions.
 
 #Module Division
-Tanishka Sakore – Trie implementation (insert, search).
-Ikara Mulani – Autocomplete suggestion logic.
-Nirmayee Puranik – User input and interface.
-Jagruti Shirsekar – Dataset handling and testing.
+1. Tanishka Sakore – Trie implementation (insert, search).
+2. Ikara Mulani – Autocomplete suggestion logic.
+3. Nirmayee Puranik – User input and interface.
+4. Jagruti Shirsekar – Dataset handling and testing.
 
 #Development Timeline
 Week 1 – Planning, design, repository setup  
