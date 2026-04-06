@@ -2,18 +2,22 @@
 import java.util.*;
 
 public class AutoCompleteSystem {
+    
+    // Trie node structure 
     static class TrieNode {
         Map<Character, TrieNode> children = new HashMap<>();
         boolean isEndOfWord =false;
         String word =null;
     }
     private TrieNode root;
-    
+
+    // Constructor- used to initialize Trie and load data
     public AutoCompleteSystem() {
         root = new TrieNode();
         loadDataset();
     }
-    
+
+    // Method to load sample words into Trie
     private void loadDataset() {
         String[] words = {
             "apple", "application", "apps", "apply", "appointment",
@@ -33,6 +37,7 @@ public class AutoCompleteSystem {
         }
         System.out.println("Ready!\n");
     }
+    
     //Method to insert a word into a Trie
        public void insert(String word) {
         TrieNode node = root;
