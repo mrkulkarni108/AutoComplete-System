@@ -33,3 +33,29 @@ public class AutoCompleteSystem {
         }
         System.out.println("Ready!\n");
     }
+       public void insert(String word) {
+        TrieNode node = root;
+        for (char c : word.toLowerCase().toCharArray()) {
+            node = node.children.computeIfAbsent(c, k -> new TrieNode());
+        }
+        node.isEndOfWord = true;
+        node.word = word;
+    }
+    
+    public List<String> getSuggestions(String prefix) {
+        List<String> result = new ArrayList<>();
+        
+        // Step 1: Find prefix node
+        TrieNode node = root;
+        for (char c : prefix.toLowerCase().toCharArray()) {
+            if (!node.children.containsKey(c)) {
+                return result; 
+            }
+            node = node.children.get(c);
+        }
+        
+        // Step 2: Collect words 
+        collectWords(node, prefix, result);
+        Collections.sort(result);
+        return result.size() > 5 ? result.subList(0, 5) : result;
+    }
