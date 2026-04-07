@@ -3,8 +3,9 @@
 #Team members 
 1. Ikara Mulani - 1012411204
 2. Nirmayee Puranik - 1012411214
-3. Jagruti Shirsekar - 1012411220
-4. Tanishka Sakore - 1012411238
+3. Chinmay Kulkarni - 1012411215
+4. Jagruti Shirsekar - 1012411220
+5. Tanishka Sakore - 1012411238
 
 #Problem Discription 
 Auto complete system implements an Auto Complete System that suggests words based on the prefix entered by the user. This system improves typing efficiency by predicting possible word completions using an efficient and relevant data structure.
